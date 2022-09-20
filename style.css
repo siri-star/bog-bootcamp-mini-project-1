@@ -59,7 +59,7 @@ p {
     padding: 2mm;
 }
 
-.all-members {
+.grid {
     margin: 1%;
     display: flex;
     flex-direction: row;
@@ -67,19 +67,23 @@ p {
     align-items: flex-start;
 }
 
-.member {
+.card {
     margin: 1%;
     padding: .5%;
     width: 47%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: xx-large;
     background-color: #f4a7bb;
     border-radius: 5mm;
 }
 
 h1 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+h2 {
     margin-top: 0%;
     margin-bottom: 0%;
 }
