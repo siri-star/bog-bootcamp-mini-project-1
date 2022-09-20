@@ -1,4 +1,51 @@
 html {
     background-color: black;
     color: white;
+    font-family: 'Didact Gothic';
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #f4a7bb;
+    height: 15%;
+}
+
+img {
+    border-radius: 5mm;
+    border: .5mm solid #f4a7bb;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    background-color: black;
+    margin: 5%;
+    border-radius: 5mm;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: larger;
+}
+
+.section {
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.text {
+    background-color: #f4a7bb;
+    border-radius: 5mm;
+    margin: 1%;
+}
+
+p {
+    padding: 2mm;
 }
