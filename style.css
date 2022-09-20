@@ -50,3 +50,19 @@ img {
 p {
     padding: 2mm;
 }
+
+.all-members {
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.member {
+    margin: 1%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large;
+}
